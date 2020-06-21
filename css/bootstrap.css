@@ -1432,10 +1432,9 @@ img {
 }
 
 .img-responsive {
-	margin:20;
   display: block;
-  max-width: 85%;
-  height: 100;
+  max-width: 100%;
+  height: auto;
 }
 
 .img-rounded {
@@ -1452,8 +1451,8 @@ img {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   display: inline-block;
-  max-width: 80%;
-  height: 100;
+  max-width: 100%;
+  height: auto;
 }
 
 .img-circle {
@@ -1934,9 +1933,8 @@ pre code {
 .container {
   margin-right: auto;
   margin-left: auto;
-  padding-top: 5%;
   padding-left: 15px;
-  padding-right: 10px;
+  padding-right: 15px;
 }
 .container:before, .container:after {
   content: " ";
@@ -3017,7 +3015,7 @@ table th[class*="col-"] {
 
 .table-responsive {
   overflow-x: auto;
-  min-height: 0.0001%;
+  min-height: 0.01%;
 }
 @media screen and (max-width: 767px) {
   .table-responsive {
